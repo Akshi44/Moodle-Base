@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className='main-nav'>  
       <div className="navbar "> 
         <Link to='/' className='nav-logo'><img src={logo} width='50px' height='50px' alt="logo"/></Link>
-        <Link to='https://shiksha.iiitbhopal.ac.in/login/index.php' className='nav-item nav-btn'>Moodle Login</Link>
+        <Link to='https://shiksha.iiitbhopal.ac.in/login/index.php' className='nav-item nav-btn'>Moodle Register</Link>
       </div>
     </nav>
   )
