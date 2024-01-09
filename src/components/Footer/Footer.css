@@ -1,0 +1,114 @@
+ .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #DBDCF1;
+    color: #000000;
+    width: 97%;
+   } 
+   .footer-logo-left{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5%;
+   }
+   .footer-logo{
+    width:  200px;
+    height: 200px;
+   }
+   .footer-left{
+     width: 100%;
+     padding-bottom: 5%;
+    }
+  
+   .footer-left-heading {
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 20px;
+     background-color: rgb(14, 8, 97);
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 5px 0;
+     width: 100%;
+    }
+    .footer-left-content {
+      font-size: 20px;
+    }
+    .footer-right-content{
+      font-size: 20px;
+    }
+    .footer-right{
+      width: 100%;
+
+     }
+  .footer-right-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: rgb(14, 8, 97);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* width: auto; */
+    padding: 5px 0;
+  }
+  .footer-right svg {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .icons{
+    margin: 10px;
+    padding: 0 5px 0 5px;
+  }
+ .icon1{
+    color: #0077b5;
+    font-size: 35px;
+    margin-left: 15px;
+  }
+  .icon2 {
+    color: black;
+    font-size: 35px;
+    margin-left: 15px;
+  }
+  .icon3{
+    color: #d62976;
+    font-size: 35px;
+    margin-left: 15px;
+  }
+  .icon4{
+    color: #4267B2;
+    font-size: 35px;
+    margin-left: 15px;
+  }
+
+
+
+  @media (min-width:1200px) {
+    .footer-container{
+      flex-direction: row;
+      padding-bottom:0px ;
+    }
+    .footer-logo-left{
+      width: 20%;
+    }
+    .footer-left{
+      width: 30%;
+    }
+    .footer-right{
+      width: 30%;
+    }
+    .footer-left-heading, .footer-right-heading{
+      font-size: 20px;
+    }
+    .footer-left-content, .footer-right-content{
+      font-size: 18px;
+    }
+    .icon1,.icon2,.icon3,.icon4{
+      font-size: 30px;
+    }
+    
+  }
