@@ -28,13 +28,16 @@ export default function Footer() {
             Help Desk
         </div>
         <div className='footer-right-content'>
-            Email :  sonalchandel@iiitbhopal.ac.in 
-            <div>Phone : +91 9826919444</div>
-            <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: +91 9827082780</div>
+            {/* Email :  sonalchandel@iiitbhopal.ac.in  */}
+            <div>Phone : +91 9402168293</div>
+            <div>Mentor Support : Dr. Nikhil Singh</div>
+            <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Dr. Sonal Chandel </div>
+            <div>Student Coordinator : Akshita Agrawal</div>
+            <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Pratyaksha Naiwalkar</div>
 
         </div>
         <div className='icons' style={{fontSize:'20px',marginLeft:'-10px'}}> 
-          Follow Us :
+        &nbsp;Follow Us :
           <GrLinkedin className='icon1' onClick={() => window.open('https://www.linkedin.com/in/tnp-iiitbhopal/', '_blank')}/>
           <FaSquareXTwitter  className='icon2' onClick={() => window.open('https://twitter.com/iiitbhopal', '_blank')}/>
           <FaSquareInstagram  className='icon3' onClick={() => window.open('https://www.instagram.com/iiitbhopal_official/', '_blank')}/>
