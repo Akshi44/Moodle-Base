@@ -22,20 +22,6 @@ export default function Footer() {
             <div>Phone : 0755-4051950 </div>
             <div>Email: info@iiitbhopal.ac.in </div>
         </div>
-      </div>
-      <div className='footer-right'>
-        <div className='footer-right-heading'>
-            Help Desk
-        </div>
-        <div className='footer-right-content'>
-            {/* Email :  sonalchandel@iiitbhopal.ac.in  */}
-            <div>Phone : +91 9402168293</div>
-            <div>Mentor Support : Dr. Nikhil Singh</div>
-            <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Dr. Sonal Chandel </div>
-            <div>Student Coordinator : Akshita Agrawal</div>
-            <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Pratyaksha Naiwalkar</div>
-
-        </div>
         <div className='icons' style={{fontSize:'20px',marginLeft:'-10px'}}> 
         &nbsp;Follow Us :
           <GrLinkedin className='icon1' onClick={() => window.open('https://www.linkedin.com/in/tnp-iiitbhopal/', '_blank')}/>
@@ -43,6 +29,23 @@ export default function Footer() {
           <FaSquareInstagram  className='icon3' onClick={() => window.open('https://www.instagram.com/iiitbhopal_official/', '_blank')}/>
           <ImFacebook2  className='icon4' onClick={() => window.open('https://www.facebook.com/iiitbhopalofficial', '_blank')}/>
         </div>
+      </div>
+      <div className='footer-right'>
+        <div className='footer-right-heading'>
+            Help Desk
+        </div>
+        <div className='footer-right-content'>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'center',fontWeight:'bold',color:'rgb(14, 8, 97)'}}>Coordinator</div>
+            <div>Dr. Sonal Chandel </div>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'center',fontWeight:'bold',color:'rgb(14, 8, 97)'}}>Co-Coordinator </div>
+            <div>Mr. Ashok Gogulotu (+91 9402168293 )</div>
+            <br/>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'center',fontWeight:'bold',color:'rgb(14, 8, 97)'}}>Student Coordinator </div>
+            <div>Akshita Agrawal (CSE)</div>
+            <div>Pratyaksha Naiwalkar (CSE)</div>
+
+        </div>
+       
       </div>
     </div>
   )
